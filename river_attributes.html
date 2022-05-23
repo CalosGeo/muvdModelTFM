@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>MUVD Model</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
+          <!-- Header -->
+          <header id="header">
+            <a href="index.html" class="logo"
+              ><strong>MUVD Model</strong>  TFM CBC</a
+            >
+          </header>
+
+          <!-- Content -->
+          <section>
+            <header class="main">
+              <h2>River Attribute value concepts </h2>
+            </header>
+
+            <!-- Content -->
+            <p>
+              En esta página encontrará las tablas que corresponden con los atributos que puede editar de la entidad River. Cada tabla muestra los diferentes valores que puede tomar ese atributo y la explicación de los mismos.
+            </p>
+            <hr class="major" />
+
+            <!-- Elements -->
+            <h2 id="elements">Atributos</h2>
+
+            <!-- Table -->
+            <h4>(HYP) Hydrologic Persistence</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table1');">Hide table</button>
+            <div class="table-wrapper">
+              <table id= "table1" class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tr><td>dry</td><td>4</td><td>Filled and/or flowing infrequently, generally only during and/or immediately after heavy precipitation.</td><td>The waterbody is often vegetated (for example: with shrubs); such a streambed in the Southwestern United States is termed a 'derramadero'.</td></tr>
+                <tr><td>intermittent</td><td>2</td><td>Filled and/or flowing for part of the year.</td><td></td></tr>
+                <tr><td>perennial</td><td>1</td><td>Filled and/or flowing continuously throughout the year as its bed lies below the water table.</td><td></td></tr>
+                <tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+                <tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+                 
+                </tbody>
+              </table>
+            </div>
+            
+            <!-- Table -->
+            <h4>(NVS) Navigability Information</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table2');">Hide table</button>
+            <div id ="table2" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>navigable</td><td>3</td><td>Affording passage to vessels; capable of being navigated.</td><td></td></tr>
+<tr><td>navigableAndOperational</td><td>1</td><td>Affords passage to vessels and is operating in accordance with stated schedule and/or stated depth and clearance.</td><td>For example, a channel is maintained at stated depth or a lock is manned on a regular schedule.</td></tr>
+<tr><td>navigableButAbandoned</td><td>2</td><td>Affords passage to vessels but operational support has been abandoned.</td><td>For example, a channel remains navigable but may no longer be maintained at stated depth.</td></tr>
+<tr><td>navigablePeriodicRestrict</td><td>4</td><td>Affords passage to vessels but periodic restrictions apply.</td><td>For example, seasonally restricted due to ice or only manned at regular intervals.</td></tr>
+<tr><td>notNavigable</td><td>5</td><td>Does not afford passage to vessels; incapable of being navigated.</td><td></td></tr>
+<tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+
+                </tbody>
+                </tfoot>
+              </table>
+            </div>
+
+            <!-- Table -->
+            <h4>(SCC) Water Type</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table3');">Hide table</button>
+            <div id = "table3" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>alkaline</td><td>1</td><td>Water with a pH above 7.0.</td><td></td></tr>
+<tr><td>brackish</td><td>12</td><td>Water containing dissolved salts and minerals greater than 1,000 to less than or equal to 15,000 milligrams per litre.</td><td>Brackish water may result from mixing of seawater with fresh water, as in estuaries, or it may occur naturally, as in brackish fossil aquifers.</td></tr>
+<tr><td>brine</td><td>14</td><td>Water containing greater than 40,000 milligrams per litre of total dissolved solids (TDS).</td><td>Saltier than full strength seawater.</td></tr>
+<tr><td>fresh</td><td>11</td><td>Containing less than 1,000 milligrams per litre of dissolved salts or minerals.</td><td>Chloride is less than or equal to 600 milligrams per litre and sulphates are less than or equal to 300 milligrams per litre.</td></tr>
+<tr><td>mineral</td><td>4</td><td>Water which has natural mineral salts or gases (carbon dioxide) and contains at least 250 milligrams per litre of dissolved salts and minerals.</td><td></td></tr>
+<tr><td>saline</td><td>10</td><td>Water containing greater than 15,000 to less than or equal 30,000 milligrams per litre of total dissolved solids (TDS).</td><td></td></tr>
+<tr><td>seawater</td><td>13</td><td>Water containing greater than 30,000 to less than or equal 40,000 milligrams per litre of total dissolved solids (TDS).</td><td></td></tr>
+<tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+
+                </tbody>
+              </table>
+            </div>
+
+            <!-- Table -->
+            <h4>(WCC) Watercourse Channel Type</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table4');">Hide table</button>
+            <div id = "table4" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>braidedStream</td><td>2</td><td>A watercourse divided into an intricate network of interlacing channels.</td><td>Generally shallow, the smaller channels are continually shifting and are separated by bar deposits.</td></tr>
+<tr><td>channelizedStream</td><td>1</td><td>A permanent or relocated watercourse that has been diverted, dredged, straightened and/or dyked.</td><td></td></tr>
+<tr><td>gorge</td><td>3</td><td>A deep, narrow, V-shaped channel with steep rocky sides.</td><td></td></tr>
+<tr><td>normalChannel</td><td>7</td><td>A watercourse that has not been channelized or relocated.</td><td>Follows a normal meandering channel with variations in channel bed morphology.</td></tr>
+<tr><td>wadi</td><td>4</td><td>A dry, intermittent, or ephemeral drainage course marked by deposits of alluvial material that are not confined to a specific channel.</td><td>The channels are commonly shallow and braided, can cover a wide area being nearly level with the surrounding floodplain, and are separated by flat, low lying segments.</td></tr>
+<tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+
+                </tbody>
+              </table>
+            </div>
+
+            <!-- Table -->
+            <h4>(WST) Watercourse Sink Type</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table5');">Hide table</button>
+            <div id = "table5" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>disappearing</td><td>2</td><td>Disappears suddenly into the ground and partially or completely ceases flowing on the surface.</td><td></td></tr>
+<tr><td>dissipating</td><td>1</td><td>Gradually dissipates due to a lowering of the water table.</td><td></td></tr>
+<tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+
+                </tbody>
+              </table>
+            </div>
+
+            <!-- Table -->
+            <h4>(YWQ) Water Potability</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table6');">Hide table</button>
+            <div id = "table6" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>contaminated</td><td>3</td><td>Incapable of being easily treated to become potable.</td><td>For example, requiring distillation or reverse osmosis treatment.</td></tr>
+<tr><td>nonpotable</td><td>4</td><td>Unsuitable for, or not intended for, consumption by humans.</td><td></td></tr>
+<tr><td>potable</td><td>1</td><td>Suitable for consumption by humans.</td><td></td></tr>
+<tr><td>treatable</td><td>2</td><td>Capable of being relatively easily treated to become potable.</td><td>For example, treatable using simple filtration and/or disinfection.</td></tr>
+<tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+
+                </tbody>
+              </table>
+            </div>
+
+          </section>
+        </div>
+      </div>
+
+  <!-- Sidebar -->
+  <div id="sidebar">
+    <div class="inner">
+      <!-- Menu -->
+      <nav id="menu">
+        <header class="major">
+          <h2>Menu</h2>
+        </header>
+        <ul>
+          <li><a href="index.html">Homepage</a></li>
+          <li>
+            <span class="opener">Bridge</span>
+            <ul>
+              <li><a href="bridge.html">Bridge home page</a></li>
+              <li>
+                <a href="bridge_attributes.html">Attribute values</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="opener">Building</span>
+            <ul>
+              <li><a href="building.html">Building home page</a></li>
+              <li>
+                <a href="building_attributes.html">Attribute values</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="opener">Land Transportation Way</span>
+            <ul>
+              <li>
+                <a href="land.html">Land Transportation Way home page</a>
+              </li>
+              <li>
+                <a href="land_attributes.html">Attribute values</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="opener">Motor Vehicle Station</span>
+            <ul>
+              <li>
+                <a href="motor.html">Motor Vehicle Station home page</a>
+              </li>
+              <li>
+                <a href="motor_attributes.html">Attribute values</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <span class="opener">Railway</span>
+            <ul>
+              <li>
+                <a href="railway.html">Railway home page</a>
+              </li>
+              <li>
+                <a href="railway_attributes.html">Attribute values</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="opener">River</span>
+            <ul>
+              <li>
+                <a href="river.html">River home page</a>
+              </li>
+              <li>
+                <a href="river_attributes.html">Attribute values</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="opener">Shed</span>
+            <ul>
+              <li>
+                <a href="shed.html">Shed home page</a>
+              </li>
+              <li>
+                <a href="shed_attributes.html">Attribute values</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="opener">Stadium</span>
+            <ul>
+              <li>
+                <a href="stadium.html">Stadium home page</a>
+              </li>
+              <li>
+                <a href="stadium_attributes.html">Attribute values</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="opener">Transportation Station</span>
+            <ul>
+              <li>
+                <a href="transportation.html"
+                  >Transportation Station home page</a
+                >
+              </li>
+              <li>
+                <a href="transportation_attributes.html"
+                  >Attribute values</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="opener">Wall</span>
+            <ul>
+              <li>
+                <a href="wall.html">Wall home page</a>
+              </li>
+              <li>
+                <a href="wall_attributes.html">Attribute values</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Section -->
+      <section>
+        <header class="major">
+          <h2>Contacto</h2>
+        </header>
+        <p>
+          Cualquier duda o porblema con la aplicación puede reportarla al
+          Centro Geográfico del Ejército.
+        </p>
+        <ul class="contact">
+          <li class="icon solid fa-envelope">ceget@et.mde.es</li>
+          <li class="icon solid fa-phone">(0034) 91 512 66 00</li>
+          <li class="icon solid fa-home">
+            C/ Darío Gazapo, 8<br />
+            28024, Madrid
+          </li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</div>
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script>
+  let toggle= function(button,id){
+    let element = document.getElementById(id);
+    let hidden = element.getAttribute("hidden");
+
+    if (hidden) {
+      element.removeAttribute("hidden");
+      button.innerText = "Hide table";
+    } else {
+      element.setAttribute("hidden", "hidden");
+      button.innerText = "Show table";
+    }
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>MUVD Model</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
+          <!-- Header -->
+          <header id="header">
+            <a href="index.html" class="logo"
+              ><strong>MUVD Model</strong>  TFM CBC</a
+            >
+          </header>
+
+          <!-- Content -->
+          <section>
+            <header class="main">
+              <h2>Land Transportation Way Attribute value concepts </h2>
+            </header>
+
+            <!-- Content -->
+            <p>
+              En esta página encontrará las tablas que corresponden con los atributos que puede editar de la entidad Land Transportation Way. Cada tabla muestra los diferentes valores que puede tomar ese atributo y la explicación de los mismos.
+            </p>
+            <hr class="major" />
+
+            <!-- Elements -->
+            <h2 id="elements">Atributos</h2>
+
+            <!-- Table -->
+            <h4>(PCF) Physical Condition</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table1');">Hide table</button>
+            <div class="table-wrapper">
+              <table id= "table1" class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>construction</td><td>1</td><td>The man-made structure is being built or undergoing renovation or repair.</td><td>Incorporates site preparations, building of new construction and the renovation or repair of existing structures.</td></tr>
+<tr><td>damaged</td><td>4</td><td>The man-made structure is damaged.</td><td>Damage may be a consequence of accident, military action, or natural disaster. The damaged man-made structure can be repaired.</td></tr>
+<tr><td>destroyed</td><td>6</td><td>The man-made structure has undergone complete destruction and is in a state of total disrepair.</td><td>Destruction may be a consequence of military action, natural disaster, planned demolition or a long period of no maintenance. A destroyed man-made structure can only be restored by complete reconstruction.</td></tr>
+<tr><td>dismantled</td><td>5</td><td>The man-made structure has undergone a systematic selective removal of components.</td><td>Low value components and/or equipment may remain. The man-made structure cannot be repaired without a great deal of time and effort.</td></tr>
+<tr><td>intact</td><td>2</td><td>The man-made structure is complete and intact.</td><td>The man-made structure may or may not be in operation or use.</td></tr>
+<tr><td>unmaintained</td><td>3</td><td>The man-made structure is left in place to deteriorate.</td><td>The man-made structure has been abandoned and no maintenance or repairs are being carried out. While the structure is physically intact, no signs of operation are visible.</td></tr>
+<tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+                </tbody>
+              </table>
+            </div>
+            
+            <!-- Table -->
+            <h4>(RST) Load-bearing Surface Type</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table2');">Hide table</button>
+            <div id ="table2" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>asphaltic</td><td>29</td><td>Composed various mixtures of sand, gravel, crushed rock, and/or recycled paving bound together by asphalt, a black or brownish-black, solid or viscous, bituminous pitch that may be of natural origin but is most commonly produced from petroleum.</td><td>Depending on the formulation, known variously as 'asphaltic concrete', 'tar macadam', 'bitumen-bound macadam' or simply 'asphalt'. In some situations the pavement perimeter (edges and/or ends) may consist of solely of concrete (for example: around a runway) in order to improve resistance to cracking and breakage under load.</td></tr>
+<tr><td>asphaltOverConcrete</td><td>22</td><td>Surfaced with a layer of asphalt over a concrete base.</td><td>The asphalt protects the base from salt exposure by forming a sacrificial layer that may be relatively easily repaired and/or replaced.</td></tr>
+<tr><td>bituminous</td><td>11</td><td>Bituminous, tar or asphalt mixed in place, oiled.</td><td></td></tr>
+<tr><td>brick</td><td>28</td><td>Bricks laid on a firm subgrade, with or without mortar.</td><td></td></tr>
+<tr><td>cobbleStone</td><td>31</td><td>Cobbles laid on a firm subgrade, with or without mortar.</td><td>Traditionally, cobbles are smooth stones taken from riverbeads and cobbled (roughly assembled) together with mortar. In more recent pavements the cobbles consist of manufactured rectangular paving stones that may or may not have curved tops.</td></tr>
+<tr><td>concrete</td><td>27</td><td>A heavy-duty building material made from a mixture of broken stone or gravel, sand, cement, and water, that forms a stonelike mass on hardening.</td><td>May include an internal steel mesh to improve resistance to cracking and minimize subsequent separation of the pieces. The joints between adjacent pavement slabs may incorporate steel pins to prevent vertical misalignment of the adjacent slabs over time.</td></tr>
+<tr><td>coral</td><td>25</td><td>Composed of crushed coral.</td><td>Sometimes with an intermixture of sand and/or clay.</td></tr>
+<tr><td>corduroy</td><td>4</td><td>A surface made of logs laid together transversely.</td><td></td></tr>
+<tr><td>gravel</td><td>24</td><td>Composed of small water-worn or pounded stones.</td><td>Sometimes with an intermixture of sand and/or clay.</td></tr>
+<tr><td>ice</td><td>15</td><td>Frozen water, a brittle transparent crystalline solid.</td><td></td></tr>
+<tr><td>macadam</td><td>17</td><td>Crushed rock, water bound.</td><td></td></tr>
+<tr><td>metal</td><td>35</td><td>Surfaced by metal (for example: grating or diamond plate sheet).</td><td>Typically used in special constructions, for example: moveable bridge surfaces.</td></tr>
+<tr><td>sand</td><td>21</td><td>Sand that has been graded, rolled, and/or oiled.</td><td></td></tr>
+<tr><td>snow</td><td>16</td><td>Packed snow, usually resulting from multiple snowfalls.</td><td></td></tr>
+<tr><td>stabilisedEarth</td><td>36</td><td>A minimally prepared route constructed from a layer of local materials (for example: consolidated soils) that have been graded, rolled and possibly treated to improve their resistance to moisture and/or load-bearing capacity (sometimes termed 'stabilized').</td><td></td></tr>
+<tr><td>wood </td><td>34</td><td>Surfaced by wood (for example: logs, beams, or planks).</td><td></td></tr>
+<tr><td>woodPlank</td><td>33</td><td>Surfaced by wooden planks laid or fastened together transversely.</td><td></td></tr>
+<tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+
+                </tbody>
+                </tfoot>
+              </table>
+            </div>
+
+            <!-- Table -->
+            <h4>(TME) Means of Transportation</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table3');">Hide table</button>
+            <div id = "table3" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>automobile</td><td>1</td><td>A self-propelled motor vehicle.</td><td></td></tr>
+<tr><td>bicycle</td><td>4</td><td>A vehicle having two or more wheels turned by pedalling, typically with handlebars at the front and a seat or saddle for the rider.</td><td></td></tr>
+<tr><td>bus</td><td>2</td><td>A large passenger road vehicle running on a fixed route.</td><td></td></tr>
+<tr><td>generalAutomotive</td><td>16</td><td>The feature is able to be used by a wide variety of motorized vehicles and is not limited to a single or small set of vehicles.</td><td></td></tr>
+<tr><td>lorry</td><td>5</td><td>A motor vehicle used for heavy loads.</td><td></td></tr>
+<tr><td>motorcycle</td><td>9</td><td>A two-wheeled motor-driven road vehicle without pedal propulsion.</td><td></td></tr>
+<tr><td>nonVehicular</td><td>17</td><td>The feature is able to be used by a wide variety of non-vehicular modes of transportation and is not limited to a single or small set of modes.</td><td></td></tr>
+<tr><td>pedestrian</td><td>3</td><td>The transport of individuals on foot.</td><td></td></tr>
+<tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+
+                </tbody>
+              </table>
+            </div>
+            <!-- Table -->
+            <h4>(WOR) Way Origin</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table4');">Hide table</button>
+            <div id = "table4" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>naturallyWorn</td><td>2</td><td>The consequence of regular use that has changed the surface condition from the surrounding area distinguishing a distinct course.
+                  </td><td>For example, a drove, track or 'desire path/line'. The impacting usage could be human or animal ambulation or vehicular traverse.
+                  </td></tr>
+                  <tr><td>purposelyPlanned</td><td>1</td><td>Purposely designed, prepared, marked, and/or constructed for the explicit purpose of ground transit.</td><td>For example, a road, track, sidewalk, footway or formalised trail.</td></tr>
+                  <tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+                  
+                </tbody>
+              </table>
+            </div>
+            <!-- Table -->
+            <h4>(WRX) Weather Restriction Type</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table5');">Hide table</button>
+            <div id = "table5" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>allWeather</td><td>1</td><td>Suitable for use regardless of the weather.</td><td>For example, in the case of a road the following characteristics might apply: (1) With reasonable maintenance, passable throughout the year to a volume of traffic never appreciably less than its maximum capacity. (2) Normally having a waterproof surface and only slightly affected by rain, frost, thaw, or heat. (3) Never closed because of weather effects other than snow or flood blockage.</td></tr>
+<tr><td>closedInWinter</td><td>2</td><td>Suitable for use other than during the winter season, when it is closed.</td><td>For example, in the case of a road regular plowing, salting, and/or sanding may not take place during the winter season.</td></tr>
+<tr><td>fairWeather</td><td>3</td><td>Suitable for use under fair weather conditions only.</td><td>For example, in the case of a road the following characteristics might apply: (1) Passable only in fair and dry weather. (2) So seriously affected by adverse conditions that the road may remain closed for long periods. (3) Improvement of such a road can only be achieved by construction or realignment.</td></tr>
+<tr><td>limitedAllWeather</td><td>4</td><td>Suitable for use in all weather conditions, however may have some reductions in usability due to weather.</td><td>For example, in the case of a road the following characteristics might apply: (1) With reasonable maintenance, passable throughout the year but at times the volume of traffic is considerably less than maximum capacity. (2) Normally not having a waterproof surface and considerably affected by rain, frost, thaw, or heat. (3) Closed for short periods of up to one day at a time by adverse weather conditions during which heavy use of the road would probably lead to collapse.</td></tr>
+<tr><td>winterOnly</td><td>5</td><td>Suitable for use under winter season conditions only.</td><td>For example, in the case of a road it may cross a waterbody and therefore is nonoperational until a sufficiently thick layer of ice has formed.</td></tr>
+<tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+
+                </tbody>
+              </table>
+            </div> 
+            <!-- Table -->
+            <h4>(WS0) Route Surface Composition</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table6');">Hide table</button>
+            <div class="table-wrapper">
+              <table id= "table6" class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>Aggregate</td><td>1</td><td>A pavement constructed from well-graded aggregates, usually consisting of a base course of larger aggregate covered by a 'open' wearing course.</td><td>A variety of compacted aggregates may be used depending on local availability. These include, for example, crushed rock, gravel, cinders, and occasionally coral or shells. Where locally available aggregates are of poor quality, or the pavement may traverse an area often innundated by water, they may be 'stabilized' by a variety of chemical means (for example: by mixing a cementitious, lime or bituminous binder with the base material) to improve its resistance to moisture and/or load-bearing capacity.</td></tr>
+<tr><td>Bound Surface</td><td>2</td><td>A pavement constructed from an unbound base covered by a bound surface layer (for example: a seal coat or a thin layer of asphalt).</td><td>The base may be 'stabilized' by a variety of chemical means (for example: by mixing a cementitious, lime or bituminous binder with the base material) to improve its load-carrying properties.</td></tr>
+<tr><td>Flexible Pavement</td><td>3</td><td>A pavement in which the load is carried mainly through unbound materials (for example: crushed aggregates).</td><td>A topping or seal coat may be applied to improve weather or flooding resistance, control surface dust production or raveling (pulling apart), and/or improve traction characteristics.</td></tr>
+<tr><td>Rigid Pavement</td><td>4</td><td>A pavement in which the load is carried by tightly bound materials (for example: concretes).</td><td> The most common forms are concrete and asphalt (also referred to as 'semi-rigid'), however in specialized situations other materials may be used, for example steel.</td></tr>
+<tr><td>Unimproved</td><td>5</td><td>An unprepared route whose surface is generally a flat track following the natural terrain.</td><td>It often appears as a rough track with two wheel paths, and close vegetation.</td></tr>
+<tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+
+                </tbody>
+              </table>
+            </div>
+             <!-- Table -->
+             <h4>(WSI) Way Significance</h4>
+             <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table7');">Hide table</button>
+             <div class="table-wrapper">
+               <table id= "table7" class="alt">
+                 <thead>
+                   <tr>
+                     <th>Name</th>
+                     <th>Code</th>
+                     <th>Definition</th>
+                     <th>Description</th>
+                   </tr>
+                 </thead>
+                 <tbody>
+                  <tr><td>Intra-Urban Access Way</td><td>6</td><td> A way that has been designed or constructed within a population centre with the intention of providing internal connections important to local traffic access and not been covered by primary, secondary, tertiary, local or intra urban interconnection way significance</td><td>The value is independent from the physical specification or type of way. While is some countries a way may be of high specification, in others it may be low specification. However the importance to the traffic network is the same. Similarly the specification of a way may change through its length but maintain its network importance.</td></tr>
+                  <tr><td>Intra-Urban Interconnection Way</td><td>5</td><td>A way that has been designed or constructed within a population centre with the intention of providing cross urban traffic connections between the main entrance/exits points of that centre and not been covered by primary, secondary, tertiary or local way significance.</td><td>The value is independent from the physical specification or type of way. While is some countries a way may be of high specification, in others it may be low specification. However the importance to the traffic network is the same. Similarly the specification of a way may change through its length but maintain its network importance.</td></tr>
+                  <tr><td>Local Way</td><td>4</td><td>A way that has been designed or constructed with the intention of providing traffic connections between (or to bypass) population centres of a local importance and not covered by primary, secondary or tertiary way significance. This includes sections of way that pass through the population centres urban area itself.</td><td>The value is independent from the physical specification or type of way. While is some countries a way may be of high specification, in others it may be low specification. However the importance to the traffic network is the same. Similarly the specification of a way may change through its length but maintain its network importance. The importance of a population is determined by its administrative rank, population and/or urban footprint.</td></tr>
+                  <tr><td>Minor Way</td><td>7</td><td>A way that is not covered by primary, secondary, tertiary, local, intra urban interconnection or intra urban access way significance.</td><td>The value is independent from the physical specification or type of way. While is some countries a way may be of high specification, in others it may be low specification. However the importance to the traffic network is the same. Similarly the specification of a way may change through its length but maintain its network importance. The importance of a population is determined by its administrative rank, population and/or urban footprint.</td></tr>
+                  <tr><td>Primary Way</td><td>1</td><td>A way that has been designed or constructed with the intention of providing traffic connections between (or to bypass) population centres of a national or international strategic importance. This includes sections of way that pass through the population centres urban area itself.</td><td>The value is independent from the physical specification or type of way. While is some countries a way may be of high specification, in others it may be low specification. However the importance to the traffic network is the same. Similarly the specification of a way may change through its length but maintain its network importance. The importance of a population is determined by its administrative rank, population and/or urban footprint.</td></tr>
+                  <tr><td>Secondary Way</td><td>2</td><td>A way that has been designed or constructed with the intention of providing traffic connections between (or to bypass) population centres and important infrastructure sites of a national strategic importance and not already covered by primary way significance. This includes sections of way that pass through the population centres urban area itself.</td><td>The value is independent from the physical specification or type of way. While is some countries a way may be of high specification, in others it may be low specification. However the importance to the traffic network is the same. Similarly the specification of a way may change through its length but maintain its network importance. The importance of a population is determined by its administrative rank, population and/or urban footprint.</td></tr>
+                  <tr><td>Tertiary Way</td><td>3</td><td>A way that has been designed or constructed with the intention of providing traffic connections between (or to bypass) population centres of a regional strategic importance and not covered by a primary or secondary way significance. This includes sections of way that pass through the population centres urban area itself.</td><td>The value is independent from the physical specification or type of way. While is some countries a way may be of high specification, in others it may be low specification. However the importance to the traffic network is the same. Similarly the specification of a way may change through its length but maintain its network importance. The importance of a population is determined by its administrative rank, population and/or urban footprint.</td></tr>
+                  <tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+                  <tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+                  
+                 </tbody>
+               </table>
+             </div>           
+          </section>
+        </div>
+      </div>
+  <!-- Sidebar -->
+  <div id="sidebar">
+    <div class="inner">
+      <!-- Menu -->
+      <nav id="menu">
+        <header class="major">
+          <h2>Menu</h2>
+        </header>
+        <ul>
+          <li><a href="index.html">Homepage</a></li>
+          <li>
+            <span class="opener">Bridge</span>
+            <ul>
+              <li><a href="bridge.html">Bridge home page</a></li>
+              <li>
+                <a href="bridge_attributes.html">Attribute values</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="opener">Building</span>
+            <ul>
+              <li><a href="building.html">Building home page</a></li>
+              <li>
+                <a href="building_attributes.html">Attribute values</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="opener">Land Transportation Way</span>
+            <ul>
+              <li>
+                <a href="land.html">Land Transportation Way home page</a>
+              </li>
+              <li>
+                <a href="land_attributes.html">Attribute values</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="opener">Motor Vehicle Station</span>
+            <ul>
+              <li>
+                <a href="motor.html">Motor Vehicle Station home page</a>
+              </li>
+              <li>
+                <a href="motor_attributes.html">Attribute values</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <span class="opener">Railway</span>
+            <ul>
+              <li>
+                <a href="railway.html">Railway home page</a>
+              </li>
+              <li>
+                <a href="railway_attributes.html">Attribute values</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="opener">River</span>
+            <ul>
+              <li>
+                <a href="river.html">River home page</a>
+              </li>
+              <li>
+                <a href="river_attributes.html">Attribute values</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="opener">Shed</span>
+            <ul>
+              <li>
+                <a href="shed.html">Shed home page</a>
+              </li>
+              <li>
+                <a href="shed_attributes.html">Attribute values</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="opener">Stadium</span>
+            <ul>
+              <li>
+                <a href="stadium.html">Stadium home page</a>
+              </li>
+              <li>
+                <a href="stadium_attributes.html">Attribute values</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="opener">Transportation Station</span>
+            <ul>
+              <li>
+                <a href="transportation.html"
+                  >Transportation Station home page</a
+                >
+              </li>
+              <li>
+                <a href="transportation_attributes.html"
+                  >Attribute values</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="opener">Wall</span>
+            <ul>
+              <li>
+                <a href="wall.html">Wall home page</a>
+              </li>
+              <li>
+                <a href="wall_attributes.html">Attribute values</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Section -->
+      <section>
+        <header class="major">
+          <h2>Contacto</h2>
+        </header>
+        <p>
+          Cualquier duda o porblema con la aplicación puede reportarla al
+          Centro Geográfico del Ejército.
+        </p>
+        <ul class="contact">
+          <li class="icon solid fa-envelope">ceget@et.mde.es</li>
+          <li class="icon solid fa-phone">(0034) 91 512 66 00</li>
+          <li class="icon solid fa-home">
+            C/ Darío Gazapo, 8<br />
+            28024, Madrid
+          </li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</div>
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script>
+  let toggle= function(button,id){
+    let element = document.getElementById(id);
+    let hidden = element.getAttribute("hidden");
+
+    if (hidden) {
+      element.removeAttribute("hidden");
+      button.innerText = "Hide table";
+    } else {
+      element.setAttribute("hidden", "hidden");
+      button.innerText = "Show table";
+    }
+  }
+</script>
+</body>
+</html>

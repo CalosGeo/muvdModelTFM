@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>MUVD Model</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
+          <!-- Header -->
+          <header id="header">
+            <a href="index.html" class="logo"
+              ><strong>MUVD Model</strong>  TFM CBC</a
+            >
+          </header>
+
+          <!-- Content -->
+          <section>
+            <header class="main">
+              <h2>Bridge Attribute value concepts </h2>
+            </header>
+
+            <!-- Content -->
+            <p>
+              En esta página encontrará las tablas que corresponden con los atributos que puede editar de la entidad Bridge. Cada tabla muestra los diferentes valores que puede tomar ese atributo y la explicación de los mismos.
+            </p>
+            <hr class="major" />
+
+            <!-- Elements -->
+            <h2 id="elements">Atributos</h2>
+
+            <!-- Table -->
+            <h4>(BOT) Bridge Opening Type</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table1');">Hide table</button>
+            <div class="table-wrapper">
+              <table id= "table1" class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>bascule</td>
+                    <td>4</td>
+                    <td>Raised or lowered with a counterpoise.</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>drawbridge</td>
+                    <td>15</td>
+                    <td>
+                      Hinged at one end for drawing up and lowering to prevent
+                      or permit passage across it or to open or close a channel
+                      spanned by it.
+                    </td>
+                    <td>
+                      May be operated by a counterpoise (for example: a bascule
+                      bridge).
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>fixed</td>
+                    <td>17</td>
+                    <td>Having permanent horizontal and vertical alignment.</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>liftBridge</td>
+                    <td>11</td>
+                    <td>Opens though a vertical lifting operation.</td>
+                    <td>
+                      For example, a bridge on a canal that may be raised to
+                      allow the passage of a boat.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>opening</td>
+                    <td>16</td>
+                    <td>
+                      Capable of being closed when set for carrying road traffic
+                      and open when set to permit maritime traffic to pass along
+                      the watercourse it crosses.
+                    </td>
+                    <td>
+                      Modern opening bridges are either bascule, vertical lift
+                      or swing.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>retractable</td>
+                    <td>12</td>
+                    <td>
+                      Moves away from the gap across the abutment along the
+                      travelled way.
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>submersible</td>
+                    <td>14</td>
+                    <td>Can be lowered under the surface of the water.</td>
+                    <td>
+                      It is intended to survive periodic submersion and may
+                      lower deep enough to allow vessel passage or simply enough
+                      to avoid aerial detection.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>swingBridge</td>
+                    <td>10</td>
+                    <td>
+                      Can be turned on a pivot (either at one end or in the
+                      centre) to allow the passage of ships.
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Other</td>
+                    <td>999</td>
+                    <td>
+                      The attribute value is known, but is not currently a valid
+                      member of the attribute range.
+                    </td>
+                    <td>
+                      The actual value may have been previously, or may become
+                      in the future, a valid member of the attribute range.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>No Information</td>
+                    <td>-999999</td>
+                    <td>
+                      There is no information specified regarding the attribute
+                      value.
+                    </td>
+                    <td>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            
+            <!-- Table -->
+            <h4>(BSC) Bridge Structure Type</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table2');">Hide table</button>
+            <div id ="table2" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>arch</td><td>31</td><td>Supported by an arch underneath the bridge that directs pressure and weight of the bridge outward to the supports along the arch.</td><td></td></tr>
+                  <tr><td>bowstringBridge</td><td>19</td><td>A girder bridge consisting of an arch (the 'bow'), a horizontal tie, and a series of hangars providing additional load-carrying support.</td><td>Hangers descend vertically at regular intervals from the cables to the bridge deck.</td></tr>
+                  <tr><td>cableStayed</td><td>27</td><td>The deck is suspended from cables attached directly to tower-like supports.</td><td>There are two major classes of cable-stayed bridges, differentiated by how the cables are connected to the towers. In a parallel attachment design, the cables are made nearly parallel by having the height of attachment on the tower be similar to the distance from the pillar along the roadway. In a radial attachment design, the cables all connect to or pass over the top of the pillar.</td></tr>
+                  <tr><td>cantilever</td><td>2</td><td>Consists of beams or trusses that project from piers or abutments toward each other and, when joined directly or by a suspended connecting member, form a bridge span.</td><td>The beams or trusses are anchored at one end and unsupported at the other end.</td></tr>
+                  <tr><td>closedSpandrelArch</td><td>26</td><td>Arch, where the space above the right and left curves of the arch is closed.</td><td></td></tr>
+                  <tr><td>covered</td><td>22</td><td>Including protection from the weather for the travel surface.</td><td></td></tr>
+                  <tr><td>deck</td><td>3</td><td>Carries the travelled way upon the upper chords.</td><td></td></tr>
+                  <tr><td>floating</td><td>5</td><td>Fixed, floating, and supported by pontoons.</td><td>Usually temporary in nature.</td></tr>
+                  <tr><td>girder</td><td>6</td><td>Consists of two or more girders supporting a separate floor or system.</td><td>May be assembled as single spans or combined into multiple spans with intermediate supports.</td></tr>
+                  <tr><td>openSpandrelArch</td><td>1</td><td>Arch, where the space above the right and left curves of the arch is open.</td><td></td></tr>
+                  <tr><td>slab</td><td>15</td><td>A self-supporting slab.</td><td></td></tr>
+                  <tr><td>stringerBeam</td><td>16</td><td>Consists of two or more beams supporting a separate floor or system.</td><td>The stringers may be in standard rolled shapes in spans up to 90 feet in length and as beams built-up with welded steel plate in the 60 to 120 foot span range.</td></tr>
+                  <tr><td>suspension</td><td>9</td><td>The deck is suspended by hangars from cables attached to and extending between supports.</td><td>The supports may be in the form of towers located between the ends of the bridge.</td></tr>
+                  <tr><td>towerSuspension</td><td>7</td><td>The deck is suspended by hangars from cables that pass over two (or more) towers and are anchored by backstays to a firm foundation.</td><td></td></tr>
+                  <tr><td>transporter</td><td>12</td><td>Consists of towers on each side of the watercourse connected by a system of girders on which a carriage runs.</td><td></td></tr>
+                  <tr><td>trestle</td><td>32</td><td>Consists of a large number of short spans, supported by splayed vertical elements to provide lateral rigidity.</td><td>Traditionally used mainly for railways and constructed from wood timbers. Twentieth century construction has eliminated much of the need for trestles by using more extensive grading and tunneling, however they remain in use as approaches to bridges where required by the local topography.</td></tr>
+                  <tr><td>truss</td><td>8</td><td>Supported by a framework of rafters, posts and struts.</td><td>Typically used in long spans from 150 to 1,000 feet or more.</td></tr>
+                  <tr>
+                    <td>Other</td>
+                    <td>999</td>
+                    <td>
+                      The attribute value is known, but is not currently a valid
+                      member of the attribute range.
+                    </td>
+                    <td>
+                      The actual value may have been previously, or may become
+                      in the future, a valid member of the attribute range.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>No Information</td>
+                    <td>-999999</td>
+                    <td>
+                      There is no information specified regarding the attribute
+                      value.
+                    </td>
+                    <td>
+                    </td>
+                  </tr>
+                </tbody>
+                </tfoot>
+              </table>
+            </div>
+
+            <!-- Table -->
+            <h4>(MCC) Structural Material Type</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table3');">Hide table</button>
+            <div id = "table3" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>Brick</td><td>9</td><td>Clay kneaded, moulded, and baked or sun-dried, used as a building material.</td><td></td></tr>
+                  <tr><td>Concrete</td><td>21</td><td>A heavy-duty building material made from a mixture of broken stone or gravel, sand, cement, and water, that forms a stonelike mass on hardening.</td><td></td></tr>
+                  <tr><td>Metal</td><td>64</td><td>Any of the class of substances that are characteristically lustrous, ductile, fusible, malleable solids and are good conductors of heat and electricity.</td><td>For example, gold, silver, copper, iron, lead, tin, and certain alloys (as brass and bronze).</td></tr>
+                  <tr><td>Stone</td><td>108</td><td>Pieces of rock or mineral substance (other than metal) of definite form and size, usually artificially shaped, and used for some special purpose.</td><td>Used, for example, for building, for paving, or in the form of a block, slab, or pillar set up as a memorial and/or a boundary-mark.</td></tr>
+                  <tr><td>Wood</td><td>117</td><td>The hard, compact, fibrous substance of which the roots, trunks, and branches of trees and shrubs consist.</td><td>Consists largely of secondary xylem, which forms the strengthening and water-transporting tissue of the plant.</td></tr>
+                  <tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+                  <tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+                  <tr>
+                    <td>Other</td>
+                    <td>999</td>
+                    <td>
+                      The attribute value is known, but is not currently a valid
+                      member of the attribute range.
+                    </td>
+                    <td>
+                      The actual value may have been previously, or may become
+                      in the future, a valid member of the attribute range.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>No Information</td>
+                    <td>-999999</td>
+                    <td>
+                      There is no information specified regarding the attribute
+                      value.
+                    </td>
+                    <td>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- Table -->
+            <h4>(PCF) Physical Condition</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table4');">Hide table</button>
+            <div id = "table4" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>construction</td><td>1</td><td>The man-made structure is being built or undergoing renovation or repair.</td><td>Incorporates site preparations, building of new construction and the renovation or repair of existing structures.</td></tr>
+                  <tr><td>damaged</td><td>4</td><td>The man-made structure is damaged.</td><td>Damage may be a consequence of accident, military action, or natural disaster. The damaged man-made structure can be repaired.</td></tr>
+                  <tr><td>destroyed</td><td>6</td><td>The man-made structure has undergone complete destruction and is in a state of total disrepair.</td><td>Destruction may be a consequence of military action, natural disaster, planned demolition or a long period of no maintenance. A destroyed man-made structure can only be restored by complete reconstruction.</td></tr>
+                  <tr><td>dismantled</td><td>5</td><td>The man-made structure has undergone a systematic selective removal of components.</td><td>Low value components and/or equipment may remain. The man-made structure cannot be repaired without a great deal of time and effort.</td></tr>
+                  <tr><td>intact</td><td>2</td><td>The man-made structure is complete and intact.</td><td>The man-made structure may or may not be in operation or use.</td></tr>
+                  <tr><td>unmaintained</td><td>3</td><td>The man-made structure is left in place to deteriorate.</td><td>The man-made structure has been abandoned and no maintenance or repairs are being carried out. While the structure is physically intact, no signs of operation are visible.</td></tr>                              
+                  <tr>
+                    <td>Other</td>
+                    <td>999</td>
+                    <td>
+                      The attribute value is known, but is not currently a valid
+                      member of the attribute range.
+                    </td>
+                    <td>
+                      The actual value may have been previously, or may become
+                      in the future, a valid member of the attribute range.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>No Information</td>
+                    <td>-999999</td>
+                    <td>
+                      There is no information specified regarding the attribute
+                      value.
+                    </td>
+                    <td>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+        </div>
+      </div>
+
+     <!-- Sidebar -->
+     <div id="sidebar">
+      <div class="inner">
+        <!-- Menu -->
+        <nav id="menu">
+          <header class="major">
+            <h2>Menu</h2>
+          </header>
+          <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li>
+              <span class="opener">Bridge</span>
+              <ul>
+                <li><a href="bridge.html">Bridge home page</a></li>
+                <li>
+                  <a href="bridge_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">Building</span>
+              <ul>
+                <li><a href="building.html">Building home page</a></li>
+                <li>
+                  <a href="building_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">Land Transportation Way</span>
+              <ul>
+                <li>
+                  <a href="land.html">Land Transportation Way home page</a>
+                </li>
+                <li>
+                  <a href="land_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">Motor Vehicle Station</span>
+              <ul>
+                <li>
+                  <a href="motor.html">Motor Vehicle Station home page</a>
+                </li>
+                <li>
+                  <a href="motor_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <span class="opener">Railway</span>
+              <ul>
+                <li>
+                  <a href="railway.html">Railway home page</a>
+                </li>
+                <li>
+                  <a href="railway_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">River</span>
+              <ul>
+                <li>
+                  <a href="river.html">River home page</a>
+                </li>
+                <li>
+                  <a href="river_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">Shed</span>
+              <ul>
+                <li>
+                  <a href="shed.html">Shed home page</a>
+                </li>
+                <li>
+                  <a href="shed_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">Stadium</span>
+              <ul>
+                <li>
+                  <a href="stadium.html">Stadium home page</a>
+                </li>
+                <li>
+                  <a href="stadium_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">Transportation Station</span>
+              <ul>
+                <li>
+                  <a href="transportation.html"
+                    >Transportation Station home page</a
+                  >
+                </li>
+                <li>
+                  <a href="transportation_attributes.html"
+                    >Attribute values</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">Wall</span>
+              <ul>
+                <li>
+                  <a href="wall.html">Wall home page</a>
+                </li>
+                <li>
+                  <a href="wall_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Section -->
+        <section>
+          <header class="major">
+            <h2>Contacto</h2>
+          </header>
+          <p>
+            Cualquier duda o porblema con la aplicación puede reportarla al
+            Centro Geográfico del Ejército.
+          </p>
+          <ul class="contact">
+            <li class="icon solid fa-envelope">ceget@et.mde.es</li>
+            <li class="icon solid fa-phone">(0034) 91 512 66 00</li>
+            <li class="icon solid fa-home">
+              C/ Darío Gazapo, 8<br />
+              28024, Madrid
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </div>
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    let toggle= function(button,id){
+      let element = document.getElementById(id);
+      let hidden = element.getAttribute("hidden");
+
+      if (hidden) {
+        element.removeAttribute("hidden");
+        button.innerText = "Hide table";
+      } else {
+        element.setAttribute("hidden", "hidden");
+        button.innerText = "Show table";
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>MUVD Model</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
+          <!-- Header -->
+          <header id="header">
+            <a href="index.html" class="logo"
+              ><strong>MUVD Model</strong>  TFM CBC</a
+            >
+          </header>
+
+          <!-- Content -->
+          <section>
+            <header class="main">
+              <h2>Motor Vehicle Station Attribute value concepts </h2>
+            </header>
+
+            <!-- Content -->
+            <p>
+              En esta página encontrará las tablas que corresponden con los atributos que puede editar de la entidad Motor Vehicle Station. Cada tabla muestra los diferentes valores que puede tomar ese atributo y la explicación de los mismos.
+            </p>
+            <hr class="major" />
+
+            <!-- Elements -->
+            <h2 id="elements">Atributos</h2>
+
+            <!-- Table -->
+            <h4>(FFA) Available POL</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table1');">Hide table</button>
+            <div class="table-wrapper">
+              <table id= "table1" class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>biodiesel</td><td>16</td><td>A fuel made from vegetable oils (for example: soybean or canola), animal fats, and/or recycled grease, and intended for use in diesel engines.</td><td>For U.S. Energy Information Administration reporting, biodiesel is a fuel composed of mono-alkyl esters of long chain fatty acids derived from vegetable oils or animal fats, and meeting the requirements of American Society for Testing and Materials (ASTM) D6751. Biodiesel is registered with the EPA as both a fuel and a fuel additive. Its designation as B100 indicates it is unblended (100 percent) biodiesel. It can serve as a substitute for petroleum-derived diesel or distillate fuel. Biodiesel Blend is a fuel that combines pure biodiesel stock with petroleum-based diesel.</td></tr>
+<tr><td>biodieselBlend</td><td>22</td><td>A fuel blended from biodiesel and petroleum-based diesel fuel, and intended for use in diesel engines.</td><td>Biodiesel Blend is designated BXX, where XX represents the volume percentage of biodiesel fuel in the blend. The blending ratio typically varies from 2 percent biodiesel (B2) up to 99.9 percent biodiesel (B99.9), with unblended biodiesel referred to as B100. Blending may occur at the point of biodiesel production, at an intermediate storage or distribution facility, or at the point-of-sale (for example: a motor vehicle station).</td></tr>
+<tr><td>compressedNaturalGas</td><td>12</td><td>Natural gas compressed into high-pressure cylinders and used as an environmentally friendly fuel.</td><td>Natural gas occurs naturally underground, consisting chiefly of methane and is often found associated with petroleum.</td></tr>
+<tr><td>dieselOil</td><td>5</td><td>A petroleum fraction used as fuel in diesel engines.</td><td></td></tr>
+<tr><td>ethanol85</td><td>17</td><td>A mixed biofuel consisting of 85 percent ethanol and 15 percent unleaded gasoline, commonly known as 'E85'.</td><td>It can be used to run automobiles known as flexible fuel vehicles (FFV). Using E85 in non-FFV vehicles can cause corrosion of vehicle parts, because these parts are notá incompatible with high concentrations of ethanol.</td></tr>
+<tr><td>hydrogen</td><td>18</td><td>A colorless odorless highly flammable diatomic gas that may be used as an alternative fuel for transportation.</td><td>Using a fuel cell, hydrogen may be used to generate electricity to power electrically-driven wheels, or it may be directly combusted.</td></tr>
+<tr><td>hythane</td><td>19</td><td>Hythane (Hydrogen Compressed Natural Gas (HCNG)) is a mixture of natural gas (methane) and hydrogen.</td><td>Hythane is usually 5-7 percent hydrogen by energy.</td></tr>
+<tr><td>kerosene</td><td>3</td><td>A petroleum distillate containing liquid hydrocarbons which boils in the range 150 to 300 degrees Centigrade.</td><td>It is used as a fuel for tractors and jet engines, and in domestic heaters.</td></tr>
+<tr><td>liquefiedNaturalGas</td><td>20</td><td>Natural gas that has been liquefied for ease of transport by cooling the gas to -162 degrees Centigrade.</td><td>It is stored in a vacuum bottle-type container at very low temperatures and under moderate pressure. Natural gas has 600 times the volume of LNG.</td></tr>
+<tr><td>liquefiedPetroleumGas</td><td>11</td><td>A mixture of propane and butane, usually with propylene and butylenes present in small concentration and a powerful odorant, ethyl mercaptan, added so that leaks can be detected easily.</td><td>It becomes liquid at room temperature at 6 bar pressure, so it is supplied in pressurised steel bottles. The liquefied gas has an expansion ratio of about 250:1. Used as a fuel in heating appliances and vehicles. LPG is manufactured during the refining of crude oil, or extracted from oil or gas streams as they emerge from the ground.</td></tr>
+<tr><td>petrol</td><td>1</td><td>Refined petroleum as used as a fuel in motor vehicles.</td><td></td></tr>
+<tr><td>propane</td><td>21</td><td>A colorless gas, C3H8, derived from natural gas and petroleum and widely used as a fuel.</td><td>Commonly transported and dispensed in liquefied form, especially in pressurized hand-carry tanks for use as a fuel for outdoor cooking in barbecues and portable stoves. The standard steel container holds 18 litre (4.73 U.S. gallon) and is often termed a 'barbecue tank'. Due to its low boiling point, liquefied propane vaporizes as soon as it is released from its pressurized container. Note that Liquefied Petroleum Gas (LPG) sold as an automotive fuel is a combination of propane and butane, often with propylene and/or butylenes, plus an odorant.</td></tr>
+<tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+
+                </tbody>
+              </table>
+            </div>
+            
+            <!-- Table -->
+            <h4>(FFN) Feature Function</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table2');">Hide table</button>
+            <div id ="table2" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>motorVehicleRepair</td><td>343</td><td>The routine maintenance and/or repair of motor vehicles (for example: buses, cars or trucks).</td><td></td></tr>
+<tr><td>petrolSale</td><td>470</td><td>The retail sale of fuel for motor vehicles.</td><td>May also include retail sale of lubricating and/or cooling products for motor vehicles.</td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+
+                </tbody>
+                </tfoot>
+              </table>
+            </div>
+
+            <!-- Table -->
+            <h4>(MCC) Structural Material Type</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table3');">Hide table</button>
+            <div id = "table3" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>Adobe Brick</td><td>149</td><td>Brick made of adobe clay and straw, dried in the sun rather than by oven firing (as are standard bricks).</td><td>Larger than standard bricks, adobe bricks require a type of clay that contains between 25 and 45 percent aluminum salts.</td></tr>
+<tr><td>Brick</td><td>9</td><td>Clay kneaded, moulded, and baked or sun-dried, used as a building material.</td><td></td></tr>
+<tr><td>Concrete</td><td>21</td><td>A heavy-duty building material made from a mixture of broken stone or gravel, sand, cement, and water, that forms a stonelike mass on hardening.</td><td></td></tr>
+<tr><td>Fibreglass</td><td>152</td><td>Any material consisting of glass filaments woven into a textile or paper, or embedded in plastic, for use as a construction or insulation material.</td><td></td></tr>
+<tr><td>Glass</td><td>40</td><td>A substance made by fusing soda and/or potash with other ingredients.</td><td>Usually transparent, lustrous, hard, and brittle.</td></tr>
+<tr><td>Hide and/or Textile</td><td>153</td><td>Any thin, flexible sheet material consisting of cured animal hides and/or textiles.</td><td>The textile may be based on a mixture of natural (for example: cotton) and/or man-made (for example: nylon) fibres.</td></tr>
+<tr><td>Metal</td><td>64</td><td>Any of the class of substances that are characteristically lustrous, ductile, fusible, malleable solids and are good conductors of heat and electricity.</td><td>For example, gold, silver, copper, iron, lead, tin, and certain alloys (as brass and bronze).</td></tr>
+<tr><td>Plant Material</td><td>45</td><td>Plant material (for example: straw and/or tall coarse grass), possibly also containing the slices of soil to which the plant material is attached.</td><td>For example, used in thatching or sodding a roof.</td></tr>
+<tr><td>Stone</td><td>108</td><td>Pieces of rock or mineral substance (other than metal) of definite form and size, usually artificially shaped, and used for some special purpose.</td><td>Used, for example, for building, for paving, or in the form of a block, slab, or pillar set up as a memorial and/or a boundary-mark.</td></tr>
+<tr><td>Wood</td><td>117</td><td>The hard, compact, fibrous substance of which the roots, trunks, and branches of trees and shrubs consist.</td><td>Consists largely of secondary xylem, which forms the strengthening and water-transporting tissue of the plant.</td></tr>
+<tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+
+
+                </tbody>
+              </table>
+            </div>
+            <!-- Table -->
+            <h4>(PCF) Physical Condition</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table4');">Hide table</button>
+            <div id = "table4" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>construction</td><td>1</td><td>The man-made structure is being built or undergoing renovation or repair.</td><td>Incorporates site preparations, building of new construction and the renovation or repair of existing structures.</td></tr>
+<tr><td>damaged</td><td>4</td><td>The man-made structure is damaged.</td><td>Damage may be a consequence of accident, military action, or natural disaster. The damaged man-made structure can be repaired.</td></tr>
+<tr><td>destroyed</td><td>6</td><td>The man-made structure has undergone complete destruction and is in a state of total disrepair.</td><td>Destruction may be a consequence of military action, natural disaster, planned demolition or a long period of no maintenance. A destroyed man-made structure can only be restored by complete reconstruction.</td></tr>
+<tr><td>dismantled</td><td>5</td><td>The man-made structure has undergone a systematic selective removal of components.</td><td>Low value components and/or equipment may remain. The man-made structure cannot be repaired without a great deal of time and effort.</td></tr>
+<tr><td>intact</td><td>2</td><td>The man-made structure is complete and intact.</td><td>The man-made structure may or may not be in operation or use.</td></tr>
+<tr><td>unmaintained</td><td>3</td><td>The man-made structure is left in place to deteriorate.</td><td>The man-made structure has been abandoned and no maintenance or repairs are being carried out. While the structure is physically intact, no signs of operation are visible.</td></tr>
+<tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+
+
+                </tbody>
+              </table>
+            </div>
+            <!-- Table -->
+            <h4>(SSR) Roof Shape</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table5');">Hide table</button>
+            <div id = "table5" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>conical</td><td>6</td><td>In the shape of a cone, tapering upwards from a more or less circular base to a point.</td><td></td></tr>
+<tr><td>domed</td><td>40</td><td>In the shape of a hemispherical (or occasionally peaked) surface, often as a rounded vault forming all or part of the roof of a building.</td><td>Typically the structure supporting the dome has an elliptical (including circular) or polygonal base.</td></tr>
+<tr><td>flat</td><td>41</td><td>Generally flat and level, but usually with a small local pitch to ensure proper drainage.</td><td></td></tr>
+<tr><td>flatWithClerestory</td><td>55</td><td>A flat roof including one or more raised sections that contain windows and/or ventilators along their sides.</td><td></td></tr>
+<tr><td>flatWithParapet</td><td>82</td><td>A flat roof surrounded by a low wall-like barrier along its edge.</td><td>The parapet may serve to prevent accidental falls over the edge or it may be a defensive, constructional, or stylistic architectural feature.</td></tr>
+<tr><td>irregular</td><td>1</td><td>A roof whose shape is not consistent or one which is architecturally unique such that it cannot be described by conventional terminology.</td><td></td></tr>
+<tr><td>pitched</td><td>42</td><td>Generally flat but with a steep pitch, usually consisting of a pair of surfaces sharing a ridge.</td><td>For example, a gabled roof.</td></tr>
+<tr><td>pitchedWithClerestory</td><td>64</td><td>A pitched roof whose ridge or sides consists of one or more raised sections that contain windows and/or ventilators along their sides.</td><td>For example, may be used in large churches to admit light to the central parts of the building.</td></tr>
+<tr><td>pyramidal</td><td>7</td><td>In the shape of a polyhedron of which the base is a polygon of any number of sides, and the other faces are triangles with a common vertex.</td><td>Usually four-sided.</td></tr>
+<tr><td>sawtoothed</td><td>47</td><td>Having a serrated profile incorporating windows in the steeper (usually sunward-facing) sides.</td><td></td></tr>
+<tr><td>semiCylindrical</td><td>38</td><td>In the general shape of a half-cylinder, often as a rounded vault forming all or part of the roof of a building.</td><td>For example, a Quonset hut. May be less than a full half-cylinder or only approximately hemi-cylindrical in cross-section.</td></tr>
+<tr><td>withClerestory</td><td>50</td><td>Having an accessory raised section containing a series of windows and/or ventilators along its sides.</td><td>Often located along a roof ridge.</td></tr>
+<tr><td>withSteeple</td><td>51</td><td>Having an accessory pointed (for example: pyramidal) structure towering above the roof.</td><td>For example, on a church, temple, or other public building.</td></tr>
+<tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+
+                </tbody>
+              </table>
+            </div>
+          </section>
+        </div>
+      </div>
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+      <div class="inner">
+        <!-- Menu -->
+        <nav id="menu">
+          <header class="major">
+            <h2>Menu</h2>
+          </header>
+          <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li>
+              <span class="opener">Bridge</span>
+              <ul>
+                <li><a href="bridge.html">Bridge home page</a></li>
+                <li>
+                  <a href="bridge_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">Building</span>
+              <ul>
+                <li><a href="building.html">Building home page</a></li>
+                <li>
+                  <a href="building_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">Land Transportation Way</span>
+              <ul>
+                <li>
+                  <a href="land.html">Land Transportation Way home page</a>
+                </li>
+                <li>
+                  <a href="land_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">Motor Vehicle Station</span>
+              <ul>
+                <li>
+                  <a href="motor.html">Motor Vehicle Station home page</a>
+                </li>
+                <li>
+                  <a href="motor_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <span class="opener">Railway</span>
+              <ul>
+                <li>
+                  <a href="railway.html">Railway home page</a>
+                </li>
+                <li>
+                  <a href="railway_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">River</span>
+              <ul>
+                <li>
+                  <a href="river.html">River home page</a>
+                </li>
+                <li>
+                  <a href="river_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">Shed</span>
+              <ul>
+                <li>
+                  <a href="shed.html">Shed home page</a>
+                </li>
+                <li>
+                  <a href="shed_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">Stadium</span>
+              <ul>
+                <li>
+                  <a href="stadium.html">Stadium home page</a>
+                </li>
+                <li>
+                  <a href="stadium_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">Transportation Station</span>
+              <ul>
+                <li>
+                  <a href="transportation.html"
+                    >Transportation Station home page</a
+                  >
+                </li>
+                <li>
+                  <a href="transportation_attributes.html"
+                    >Attribute values</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">Wall</span>
+              <ul>
+                <li>
+                  <a href="wall.html">Wall home page</a>
+                </li>
+                <li>
+                  <a href="wall_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Section -->
+        <section>
+          <header class="major">
+            <h2>Contacto</h2>
+          </header>
+          <p>
+            Cualquier duda o porblema con la aplicación puede reportarla al
+            Centro Geográfico del Ejército.
+          </p>
+          <ul class="contact">
+            <li class="icon solid fa-envelope">ceget@et.mde.es</li>
+            <li class="icon solid fa-phone">(0034) 91 512 66 00</li>
+            <li class="icon solid fa-home">
+              C/ Darío Gazapo, 8<br />
+              28024, Madrid
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </div>
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    let toggle= function(button,id){
+      let element = document.getElementById(id);
+      let hidden = element.getAttribute("hidden");
+
+      if (hidden) {
+        element.removeAttribute("hidden");
+        button.innerText = "Hide table";
+      } else {
+        element.setAttribute("hidden", "hidden");
+        button.innerText = "Show table";
+      }
+    }
+  </script>
+</body>
+</html>

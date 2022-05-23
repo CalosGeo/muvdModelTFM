@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>MUVD Model</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
+          <!-- Header -->
+          <header id="header">
+            <a href="index.html" class="logo"
+              ><strong>MUVD Model</strong>  TFM CBC</a
+            >
+          </header>
+
+          <!-- Content -->
+          <section>
+            <header class="main">
+              <h2>Railway Attribute value concepts </h2>
+            </header>
+
+            <!-- Content -->
+            <p>
+              En esta página encontrará las tablas que corresponden con los atributos que puede editar de la entidad Railway. Cada tabla muestra los diferentes valores que puede tomar ese atributo y la explicación de los mismos.
+            </p>
+            <hr class="major" />
+
+            <!-- Elements -->
+            <h2 id="elements">Atributos</h2>
+
+            <!-- Table -->
+            <h4>(PCF) Physical Condition</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table1');">Hide table</button>
+            <div class="table-wrapper">
+              <table id= "table1" class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>construction</td><td>1</td><td>The man-made structure is being built or undergoing renovation or repair.</td><td>Incorporates site preparations, building of new construction and the renovation or repair of existing structures.</td></tr>
+<tr><td>damaged</td><td>4</td><td>The man-made structure is damaged.</td><td>Damage may be a consequence of accident, military action, or natural disaster. The damaged man-made structure can be repaired.</td></tr>
+<tr><td>destroyed</td><td>6</td><td>The man-made structure has undergone complete destruction and is in a state of total disrepair.</td><td>Destruction may be a consequence of military action, natural disaster, planned demolition or a long period of no maintenance. A destroyed man-made structure can only be restored by complete reconstruction.</td></tr>
+<tr><td>dismantled</td><td>5</td><td>The man-made structure has undergone a systematic selective removal of components.</td><td>Low value components and/or equipment may remain. The man-made structure cannot be repaired without a great deal of time and effort.</td></tr>
+<tr><td>intact</td><td>2</td><td>The man-made structure is complete and intact.</td><td>The man-made structure may or may not be in operation or use.</td></tr>
+<tr><td>unmaintained</td><td>3</td><td>The man-made structure is left in place to deteriorate.</td><td>The man-made structure has been abandoned and no maintenance or repairs are being carried out. While the structure is physically intact, no signs of operation are visible.</td></tr>
+<tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+
+                </tbody>
+              </table>
+            </div>
+            
+            <!-- Table -->
+            <h4>(RGC) Railway Gauge Classification</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table2');">Hide table</button>
+            <div id ="table2" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>broad</td><td>RGC_1</td><td>A railway gauge broader than the standard 4 feet 8.5 inches (approximately 1.435 metres).</td><td></td></tr>
+<tr><td>narrow</td><td>RGC_2</td><td>A railway gauge narrower than the standard 4 feet 8.5 inches (approximately 1.435 metres).</td><td></td></tr>
+<tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+
+                </tbody>
+                </tfoot>
+              </table>
+            </div>
+
+            <!-- Table -->
+            <h4>(RRA) Railway Power Method</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table3');">Hide table</button>
+            <div id = "table3" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>electrifiedTrack</td><td>1</td><td>Electrical power is transferred using an electrified third rail.</td><td></td></tr>
+<tr><td>nonElectrified</td><td>4</td><td>Electrical power is not provided by the railway.</td><td>On-board electrical generators or batteries may be used.</td></tr>
+<tr><td>overheadElectrified</td><td>3</td><td>Electrical power is transferred from an overhead power line.</td><td></td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+
+                </tbody>
+              </table>
+            </div>
+            <!-- Table -->
+            <h4>(RRC) Railway Use</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table4');">Hide table</button>
+            <div id = "table4" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>automatedTransitSystem</td><td>32</td><td>An automated rail or guideway system that runs along dedicated ways.</td><td>May operate according to a fixed schedule or on-demand (sometimes capable of bypassing individual stations). Generally consisting of vehicles having capacities of 12 to 100 people. Examples of this type of system include the Personal Rapid Transit (PRT) at West Virginia University and airport people-movers in U.S. cities such as Seattle, Dallas-Ft. Worth and Miami.</td></tr>
+<tr><td>carline</td><td>2</td><td>A track for streetcars, trolleys, and other mass transit rail systems.</td><td></td></tr>
+<tr><td>craneMovement</td><td>34</td><td>Designed to provide mobility for a travelling crane or a moveable gantry.</td><td>Often aligned parallel to the face of a wharf in order that the crane may be used to load and unload cargo vessels.</td></tr>
+<tr><td>funicular</td><td>15</td><td>A railway designed to operate on steep grades.</td><td>Usually includes mechanical components (for example: a rack) to insure traction at all times.</td></tr>
+<tr><td>industrial</td><td>37</td><td>A railway used for the transportation of materials and/or cargo within a manufacturing, processing, or resource extraction facility.</td><td>These rail lines will not be connected to any national or regional rail networks.</td></tr>
+<tr><td>logging</td><td>8</td><td>A railway designed to efficiently transport logs from remote logging sites.</td><td>Usually narrow gauge and more curved than railways intended for high-speed transport.</td></tr>
+<tr><td>longHaul</td><td>33</td><td>A railway operated over long distances and typically passing without interruption through urban areas.</td><td></td></tr>
+<tr><td>marineRailway</td><td>13</td><td>A slipway in which the cradle travels on rails to facilitate the handling of vessels.</td><td></td></tr>
+<tr><td>marineVesselTow</td><td>36</td><td>A railway, aligned parallel to the edge of a body of water, used to tow marine vessels (ex. boats, barges, ships).</td><td></td></tr>
+<tr><td>museum</td><td>24</td><td>Maintained as an historical exhibit at a railway museum.</td><td></td></tr>
+<tr><td>railRapidTransit</td><td>11</td><td>A rail-based high-speed public transport system.</td><td>Usually located within a metropolitan area.</td></tr>
+<tr><td>spaceVehicleTransportation</td><td>35</td><td>A railway used to transport space vehicles between the launch pad and a preparation facility (i.e. hangar or assembly building).</td><td></td></tr>
+<tr><td>tramway</td><td>14</td><td>A railway laid down on a public road or street for tramcars.</td><td></td></tr>
+<tr><td>undergroundRailway</td><td>6</td><td>A railway running underground, especially beneath the streets and buildings of a city.</td><td>Usually includes those portions of an underground railway system that may not be underground.  Common names for underground railways include: subway, metro, or underground (ex. New York Subway, Paris Metro, and London Underground).</td></tr>
+<tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+
+                </tbody>
+              </table>
+            </div>
+            <!-- Table -->
+            <h4>(RTA) Linear Feature Arrangement</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table5');">Hide table</button>
+            <div id = "table5" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>doubleArrangement</td><td>2</td><td>Two linear features on the same support structure.</td><td></td></tr>
+<tr><td>juxtaposition</td><td>4</td><td>Two linear features, closely spaced but on separate support structures.</td><td></td></tr>
+<tr><td>multipleArrangements</td><td>3</td><td>Three or more linear features on the same support structure.</td><td></td></tr>
+<tr><td>singleArrangement</td><td>1</td><td>One linear feature.</td><td></td></tr>
+<tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+
+                </tbody>
+              </table>
+             </div> 
+
+            <!-- Table -->
+            <h4>(RWC) Railway Class</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table6');">Hide table</button>
+            <div id = "table6" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>branchLine</td><td>3</td><td>A secondary railway line running from a main line to a terminus.</td><td>For example, a railhead.</td></tr>
+<tr><td>highSpeedRail</td><td>1</td><td>A rail-based high-speed inter-city transport system.</td><td>Usually operated over long distances. For example, the French TGV (Train Ó Grande Vitesse).</td></tr>
+<tr><td>mainLine</td><td>2</td><td>A chief railway line operated over long distances and typically passing without interruption through multiple urban areas.</td><td>Usually must not be occupied or traversed without proper authority. Primarily carries freight and is accordingly operated at a relatively slow speed.</td></tr>
+<tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+
+                </tbody>
+              </table>
+             </div> 
+
+            <!-- Table -->
+            <h4>(TRT) Track Type</h4>
+            <button class="button small" style = " font-size:8px;" onclick="toggle(this,'table7');">Hide table</button>
+            <div id = "table7" class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Definition</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>drillTrack</td><td>2</td><td>Connects to a ladder track, over which locomotives and rail wagons move back and forth in switching.</td><td></td></tr>
+<tr><td>houseTrack</td><td>3</td><td>Enters, or is located along side, a freight house.</td><td>Rail wagons are moved to a house track for loading or unloading.</td></tr>
+<tr><td>jointTrack</td><td>4</td><td>Owned, operated, or maintained by more than one operating railway company.</td><td></td></tr>
+<tr><td>ladderTrack</td><td>5</td><td>A series of turnouts providing access to any of several parallel tracks in a railway yard.</td><td></td></tr>
+<tr><td>maglev</td><td>13</td><td>A railway using magnetic repulsion to support the train above the track.</td><td>May also be used in an overhead monorail.</td></tr>
+<tr><td>monorail</td><td>12</td><td>A railway in which the track is a single rail, on or suspended from which vehicles run.</td><td></td></tr>
+<tr><td>pairedTrack</td><td>6</td><td>A pair of adjacent tracks where when two railway companies own single railway line and they have reached an agreement whereby one railway company services one railway track and the other company services the other railway track.</td><td></td></tr>
+<tr><td>ripTrack</td><td>7</td><td>A small repair facility for rail wagons consisting of a single railway track in a small railway yard.</td><td>The name is derived from 'Repair, Inspect and Paint'.</td></tr>
+<tr><td>stubTrack</td><td>9</td><td>A form of a side track connected to a running track at one end only, and protected at the other end by an obstruction (for example: a bumping post).</td><td></td></tr>
+<tr><td>teamTrack</td><td>10</td><td>A track on which rail wagons are placed for the use of the public in loading or unloading freight.</td><td></td></tr>
+<tr><td>Other</td><td>999</td><td>The attribute value is known, but is not currently a valid member of the attribute range.</td><td>The actual value may have been previously, or may become in the future, a valid member of the attribute range.</td></tr>
+<tr><td>No Information</td><td>-999999</td><td>There is no information specified regarding the attribute value.</td><td></td></tr>
+
+                </tbody>
+              </table>
+             </div> 
+          </section>
+        </div>
+      </div>
+
+     <!-- Sidebar -->
+     <div id="sidebar">
+      <div class="inner">
+        <!-- Menu -->
+        <nav id="menu">
+          <header class="major">
+            <h2>Menu</h2>
+          </header>
+          <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li>
+              <span class="opener">Bridge</span>
+              <ul>
+                <li><a href="bridge.html">Bridge home page</a></li>
+                <li>
+                  <a href="bridge_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">Building</span>
+              <ul>
+                <li><a href="building.html">Building home page</a></li>
+                <li>
+                  <a href="building_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">Land Transportation Way</span>
+              <ul>
+                <li>
+                  <a href="land.html">Land Transportation Way home page</a>
+                </li>
+                <li>
+                  <a href="land_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">Motor Vehicle Station</span>
+              <ul>
+                <li>
+                  <a href="motor.html">Motor Vehicle Station home page</a>
+                </li>
+                <li>
+                  <a href="motor_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <span class="opener">Railway</span>
+              <ul>
+                <li>
+                  <a href="railway.html">Railway home page</a>
+                </li>
+                <li>
+                  <a href="railway_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">River</span>
+              <ul>
+                <li>
+                  <a href="river.html">River home page</a>
+                </li>
+                <li>
+                  <a href="river_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">Shed</span>
+              <ul>
+                <li>
+                  <a href="shed.html">Shed home page</a>
+                </li>
+                <li>
+                  <a href="shed_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">Stadium</span>
+              <ul>
+                <li>
+                  <a href="stadium.html">Stadium home page</a>
+                </li>
+                <li>
+                  <a href="stadium_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">Transportation Station</span>
+              <ul>
+                <li>
+                  <a href="transportation.html"
+                    >Transportation Station home page</a
+                  >
+                </li>
+                <li>
+                  <a href="transportation_attributes.html"
+                    >Attribute values</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="opener">Wall</span>
+              <ul>
+                <li>
+                  <a href="wall.html">Wall home page</a>
+                </li>
+                <li>
+                  <a href="wall_attributes.html">Attribute values</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Section -->
+        <section>
+          <header class="major">
+            <h2>Contacto</h2>
+          </header>
+          <p>
+            Cualquier duda o porblema con la aplicación puede reportarla al
+            Centro Geográfico del Ejército.
+          </p>
+          <ul class="contact">
+            <li class="icon solid fa-envelope">ceget@et.mde.es</li>
+            <li class="icon solid fa-phone">(0034) 91 512 66 00</li>
+            <li class="icon solid fa-home">
+              C/ Darío Gazapo, 8<br />
+              28024, Madrid
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </div>
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    let toggle= function(button,id){
+      let element = document.getElementById(id);
+      let hidden = element.getAttribute("hidden");
+
+      if (hidden) {
+        element.removeAttribute("hidden");
+        button.innerText = "Hide table";
+      } else {
+        element.setAttribute("hidden", "hidden");
+        button.innerText = "Show table";
+      }
+    }
+  </script>
+</body>
+</html>
